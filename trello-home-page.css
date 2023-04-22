@@ -1,0 +1,186 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) {
+  .section-1 {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-1 {
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(82,67,170,1) 0%, rgba(237,80,180,1) 100%);
+    
+    color: rgb(255, 255, 255);
+  }
+}
+
+.section-1 {
+  scroll-margin-top: 72px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  height: 60px;
+}
+
+.header-div {
+  position: sticky;
+  top: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.down-caret-svg {
+  width: 0.5rem;
+  height: auto;
+}
+
+.trello-logo {
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbar-button,
+.navbar-a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #172b4d;
+  text-decoration: none;
+}
+.navbar-button-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px 16px 16px;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+.right-navbar-section {
+  display: flex;
+  margin-left: auto;
+  align-items: stretch;
+  box-sizing: 500px;
+  max-width: 1000px;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.trello-for-free-button {
+  color: white;
+  background-color: #0065ff;
+  align-items: center;
+  align-self: stretch;
+  height: 60px;
+  width: 205px;
+  font-size: 20px;
+  margin-right: 200px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.under-navbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-email-div {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  left: 28%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.under-navbar-h1 {
+  width: 500px;
+  font-size: 46px;
+}
+.under-navbar-p {
+  margin-top: -20px;
+  font-size: 22px;
+  width: 550px;
+  line-height: 34px;
+}
+
+.email-input {
+  height: 55px;
+  width: 300px;
+  padding-left: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+}
+
+.signup-button {
+  color: white;
+  background-color: #0065ff;
+  align-items: center;
+  align-self: stretch;
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  margin-left: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.watch-video-div {
+  color: white;
+  margin-top: 30px;
+}
+
+.watch-video-a {
+  color: white;
+}
+
+.under-navbar-img {
+  display: flex;
+  width: 670px;
+  height: 670px;
+  object-fit: contain;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  scroll-margin-top: 72px;
+  margin-bottom: -1rem;
+  z-index: 1;
+  left: 28%;
+  margin-top: 0px;
+}
